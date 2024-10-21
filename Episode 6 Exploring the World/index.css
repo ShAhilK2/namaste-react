@@ -1,0 +1,107 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.nav-link-container > ul {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+}
+
+.nav-link-container > ul > li {
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.nav-link-container {
+  margin-right: 20px;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards */
+}
+
+.res-card {
+  margin: 15px; /* Increased margin for spacing */
+  width: 250px; /* Increased width for a better layout */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+  overflow: hidden; /* Ensures no overflow from rounded corners */
+  background-color: #fff; /* White background for cards */
+  padding: 10px; /* Padding inside the card */
+}
+
+.res-card:hover {
+  cursor: pointer;
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.res-image {
+  width: 100%;
+  height: 150px; /* Fixed height for images */
+  object-fit: cover; /* Ensures the image covers the space properly */
+}
+
+h3 {
+  margin: 10px 0 5px; /* Spacing for title */
+  font-size: 1.2em; /* Adjust font size */
+}
+
+h4 {
+  margin: 5px 0; /* Spacing for cuisine and rating */
+  font-size: 1em; /* Slightly smaller font size */
+  color: #555; /* Subtle color for text */
+}
+
+p {
+  margin: 5px 0; /* Spacing for paragraphs */
+  font-size: 0.9em; /* Slightly smaller font size */
+  color: #777; /* Lighter color for cost and delivery time */
+}
+
+.search {
+  padding: 10px;
+}
+.filter-btn {
+  margin: 10px;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards */
+}
+.shimmer-card {
+  margin: 15px; /* Increased margin for spacing */
+  width: 250px; /* Increased width for a better layout */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+  overflow: hidden; /* Ensures no overflow from rounded corners */
+  background-color: rgba(240, 240, 240, 0.884); /* White background for cards */
+  padding: 10px; /* Padding inside the card */
+  height: 200px;
+}
+.signin-btn {
+  padding: 0 20px;
+  font-size: 20px;
+  background-color: rgba(240, 240, 240, 0.884);
+  border: none;
+}
+.body-search-top {
+  display: flex;
+  justify-content: center;
+}
