@@ -41,4 +41,35 @@ In React 16
 //Diff Algorithm
 //Difference between updated Virtual DOM and Prevous Virtual DOM
 //Difference between Old and new Virtual Dom and then it actuall update the dom
+
 -useEffect()
+
+<!-- useEffect is used for SideEffect and
+have 3 dependency array
+1.no dependency array then it called on every render
+2.Empty Dependency = [ ] => Only Initial render
+
+3.Dependancy array = [name] => if name is changes it render  -->
+
+//IN Class Component
+
+First,Constructor
+then render is called
+
+//Constructor
+//render
+
+//THis Phase is render phase
+
+//componentDidMount
+//componentDidUpdate
+//componentWillUnmount
+
+//this phase is commit phase
+
+//Single Responsibilty Principal
+
+//Modular
+Resuable
+Maintainable
+Testable
