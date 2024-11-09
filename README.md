@@ -73,3 +73,19 @@ then render is called
 Resuable
 Maintainable
 Testable
+
+//Redux Toolkit
+
+//Install
+
+@reduxjs/toolkit and react-redux
+
+//Build Our Store
+
+//Connect Our Store to our App
+
+//Slice (cartSlice)
+
+//dispatch(action)
+
+// Selector
